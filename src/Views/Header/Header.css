@@ -1,0 +1,37 @@
+/*Mobile css */
+@media only screen and (max-width: 600px) {
+    .headerContainer{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profilephoto{
+       width: 100px;
+       height: 100px;
+       border-radius: 50px;
+       margin-top:20px;
+       margin-bottom: 0px;
+
+    }
+
+    .logoname{
+        color: black;
+        font-weight: bolder;
+        font-size: 30px;
+        margin: 0px;
+    }
+    .lineindicator{
+        height: 8px;
+        width: 40px;
+        background-color: rgb(103, 103, 181);
+        border-radius: 10px;
+        margin-top: 3px;
+
+    }
+
+
+
+}
