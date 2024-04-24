@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "./assets/logo.JPG"
+import logo from "./assets/BOK.png"
 import './Header.css'
 
 const  Header =()=>{
