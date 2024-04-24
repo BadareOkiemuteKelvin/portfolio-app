@@ -16,6 +16,17 @@
         border-radius: 30px;
 
    }
+  .container-1 h1{
+      margin-left:30px;
+      padding-top: 8px;
+
+  }
+
+  .container-1 p{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+  }
 
 
 
