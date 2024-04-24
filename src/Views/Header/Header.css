@@ -14,7 +14,6 @@
        border-radius: 50px;
        margin-top:20px;
        margin-bottom: 0px;
-
     }
 
     .logoname{
@@ -29,8 +28,27 @@
         background-color: rgb(103, 103, 181);
         border-radius: 10px;
         margin-top: 3px;
-
     }
+
+    .container ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: -60px;
+        
+    }
+
+    .container li {
+        text-decoration: none;
+        list-style: none;
+        text-transform: uppercase;
+        color: rgb(103, 103, 117);
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 30px;
+  }
+
 
 
 

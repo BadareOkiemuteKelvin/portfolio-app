@@ -5,13 +5,27 @@ import './Header.css'
 const  Header =()=>{
 
     return(
-        <div className="headerContainer">
+        <header className="headerContainer">
           <img  src={logo}  className="profilephoto"  alt="kelvin"  />
           <p className="logoname boy">Badare O. Kelvin</p>
           <div className="lineindicator"></div>
-   
-
-        </div>
+      <div className='container'>
+      <ul>
+          <li>
+           Project
+          </li>
+          <li>
+            Work
+          </li>
+          <li>
+           Articles
+          </li>
+          <li>
+            Contact
+          </li>
+      </ul>
+    </div>
+        </header>
     )
 }
 
