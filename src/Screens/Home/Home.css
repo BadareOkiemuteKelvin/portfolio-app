@@ -25,10 +25,55 @@
   .container-1 p{
     padding-left: 15px;
     padding-right: 15px;
-    font-size: 13px;
+    font-size: 15px;
+  }
+
+  .container-1 .span1{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 221, 0);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+
   }
 
 
+  
+  .container-1 .span2{
+
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 195, 255);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+  
+    }
+    .container-1 .span3{
+
+      text-decoration: underline;
+      text-decoration-color: rgb(9, 96, 24);
+      text-decoration-thickness: 3px;
+      text-underline-offset: 4px;
+    
+      }
+      .container-1 .span4{
+
+        text-decoration: underline;
+        text-decoration-color: rgb(202, 220, 205);
+        text-decoration-thickness: 3px;
+        text-underline-offset: 4px;
+        
+      
+        }
+
+        #lastText{
+          
+          margin-top: -8px;
+        }
+
+    
+    
+  
+
+  
 
 
 }
