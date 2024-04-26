@@ -28,6 +28,11 @@
     font-size: 15px;
   }
 
+  .container-1 a{
+   text-decoration-line: none;
+   color:rgb(119, 119, 244);
+   font-weight: 600;
+  }
   .container-1 .span1{
     text-decoration: underline;
     text-decoration-color: rgb(255, 221, 0);
@@ -68,7 +73,30 @@
           
           margin-top: -8px;
         }
+        #articleheading{
+          margin: 20px;
+          font-weight: 400;
+          font-size: 26px;
+          color:black;
+        }
 
+        #articlecontainer{
+          margin: 20px;
+        }
+
+        #articlecontainer h1{
+        
+          font-weight: 400;
+          font-size: 22px;
+          color:black;
+        }
+
+        #articlecontainer div{
+        
+         display:flex;
+         flex-direction: row;
+         justify-content: space-between;
+        }
     
     
   
