@@ -18,6 +18,16 @@ const Articles = [{
 "language":"React Native",
 "date":"26 April 2024",
 "body":"What's a policy? What's a gate? It can be difficult understanding the difference between the two. Let's go over which does what and how to apply them to your Laravel app."
+},{ "id":4,
+"heading":"Javascript Security: Understanding Policies & Gates",
+"language":"React.js",
+"date":"26 April 2024",
+"body":"What's a policy? What's a gate? It can be difficult understanding the difference between the two. Let's go over which does what and how to apply them to your Laravel app."},
+{ "id":5,
+"heading":"Javascript Security: Understanding Policies & Gates",
+"language":"React Native",
+"date":"26 April 2024",
+"body":"What's a policy? What's a gate? It can be difficult understanding the difference between the two. Let's go over which does what and how to apply them to your Laravel app."
 }
 ]
 
