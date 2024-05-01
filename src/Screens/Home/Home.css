@@ -74,14 +74,18 @@
           margin-top: -8px;
         }
         #articleheading{
-          margin: 20px;
+          padding: 20px;
           font-weight: 400;
           font-size: 26px;
           color:black;
+          background-color: white;
         }
 
         #articlecontainer{
-          margin: 20px;
+          padding: 20px;
+          background-color: white;
+          margin-top: -15px;
+
         }
 
         #articlecontainer h1{
@@ -89,15 +93,66 @@
           font-weight: 400;
           font-size: 22px;
           color:black;
+
         }
 
         #articlecontainer div{
         
          display:flex;
          flex-direction: row;
-         justify-content: space-between;
+       
         }
-    
+
+        #language{
+
+            color: red;
+            height: 20px;
+            border-style: solid;
+            border-width: 1.5px;
+            border-radius: 20px;
+            padding: 3px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-right: 20px;
+        }
+        
+        #date{
+
+          color: rgb(157, 150, 150);
+          height: 20px;
+          font-size: 12px;
+          margin-top: 23px;
+         
+      }
+       
+      #min-read{
+
+        color: rgb(157, 150, 150);
+        height: 20px;
+        font-size: 12px;
+        margin-top: 23px;
+        margin-left: 14px;
+       
+    }
+
+    #readmore{
+
+      color: rgb(122, 164, 242);
+      height: 20px;
+      font-size: 16px;
+      margin-top: 23px;
+   
+     
+  }
+
+
+  hr{
+
+    color: rgb(236, 240, 250);
+    height: 0px;
+ 
+   
+}
     
   
 
