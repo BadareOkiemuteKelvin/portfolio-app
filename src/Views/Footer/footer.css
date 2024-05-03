@@ -1,0 +1,26 @@
+footer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+footer .span1{
+
+    color: rgb(228, 59, 59);
+
+
+  }
+
+
+  
+footer .span2{
+
+      color: rgb(0, 195, 255);
+   
+  
+    }

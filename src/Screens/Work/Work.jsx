@@ -1,16 +1,16 @@
 import React from "react"
 import Header from "../../Views/Header/Header";
-import './Project.css'
+import './Work.css'
 import Footer from "../../Views/Footer/footer";
 
 
-const Project =()=>{
+const Work =()=>{
 
  return(
     <div className="container">
         <main>
-          <Header menuOption="project" />
-          <p>Hello Project</p>
+          <Header menuOption="work" />
+          <p>Hello Work</p>
 
         </main>
    
@@ -21,4 +21,4 @@ const Project =()=>{
 }
 
 
-export default Project;
+export default Work;

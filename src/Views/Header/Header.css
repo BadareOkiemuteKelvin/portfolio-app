@@ -39,7 +39,7 @@
         
     }
 
-    .container li {
+    .container ul p {
         text-decoration: none;
         list-style: none;
         text-transform: uppercase;
@@ -48,5 +48,11 @@
         font-weight: 500;
         margin-left: 30px;
   }
+
+
+   
+  .container ul .activeMenu{
+    color:rgb(55, 65, 216);
+   }
 
 }
