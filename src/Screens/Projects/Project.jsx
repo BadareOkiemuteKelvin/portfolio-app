@@ -42,7 +42,10 @@ const Project =()=>{
           <p className="p1">Some of my spare time tinkering</p>
           {
             projects.map((data)=><div key={data.id}>
-              <img src={data.image} alt="projectimage" />
+              <div  className="imgdiv">
+                 <img src={data.image} alt="projectimage" />
+              </div>
+             
               <h2>{data.header}</h2>
               <p className="p2">{data.description}</p>
               <p className="p3">{">"}{" "}{data.Apptype}</p>

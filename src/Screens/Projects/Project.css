@@ -16,14 +16,16 @@ main .p1{
     font-size: 20px;
 
 }
+main .imgdiv{
+    display: flex;
+    justify-content: center;
+}
 
 main img{
     width: 350px;
     height: 650px;
     border-radius: 10px;
-    margin-left: 20px;
     margin-top: 20px;
-
 }
 main h2{
 
