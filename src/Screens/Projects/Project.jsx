@@ -50,7 +50,13 @@ const Project =()=>{
               <p className="p2">{data.description}</p>
               <p className="p3">{">"}{" "}{data.Apptype}</p>
               <p className="p3">{">"}{" "}{data.Langauge}</p>
-              <div className="div2"><a href={data.link}><p>Visit App</p></a></div>
+              <div>
+
+              </div>
+              <div className="buttonContainer">
+                 <div className="button"><a href={data.link}><p>Visit App</p></a></div>
+              </div>
+           
           
 
             </div>)
