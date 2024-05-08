@@ -3,6 +3,64 @@
     flex-direction: column;
 
 }
+
+main h1{
+    font-weight: 300;
+    font-size: 30px;
+    margin: 10px;
+}
+
+main .p1{
+    margin: 10px;
+    font-weight:100;
+    font-size: 20px;
+
+}
+
+main img{
+    width: 350px;
+    height: 650px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+main h2{
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+main .p2{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+main .p3{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+main a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+main .div2{
+
+    background-color: rgb(76, 118, 190);
+    height: 50px;
+    width:120px;
+    display: flex;
+    justify-content: center;
+    margin-left: 125px;
+    border-radius: 30px;
+}
+main .div2 :hover{
+    cursor:grab
+}
 .container main{
     margin-bottom: 620px;
 }
