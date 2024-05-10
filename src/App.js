@@ -4,6 +4,7 @@ import Home from './Screens/Home/Home'
 import Project from "./Screens/Projects/Project"
 import Work from "./Screens/Work/Work"
 import NotFound from "./Screens/NotFound/NotFound"
+import Article from "./Screens/Articles/Article"
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
        <Route path="/" index element={<Home />} />
        <Route path="/work" element={<Work />} />
        <Route path="/project" element={<Project />} />
+       <Route path="/articles" element={<Article />} />
        <Route path="*" element={<NotFound />} />
 
       </Routes>

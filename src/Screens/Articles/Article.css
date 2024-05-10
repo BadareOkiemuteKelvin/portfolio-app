@@ -1,0 +1,162 @@
+/*Mobile css */
+@media only screen and (max-width:4000px) {
+    .homeContainer{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+   .container-1{
+     
+        background-color: white;
+        height: 400px;
+        margin: 20px;
+        border-radius: 30px;
+
+   }
+  .container-1 h1{
+      margin-left:30px;
+      padding-top: 8px;
+
+  }
+
+  .container-1 p{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+  }
+
+  .container-1 a{
+   text-decoration-line: none;
+   color:rgb(119, 119, 244);
+   font-weight: 600;
+  }
+  .container-1 .span1{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 221, 0);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+
+  }
+
+
+  
+  .container-1 .span2{
+
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 195, 255);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+  
+    }
+    .container-1 .span3{
+
+      text-decoration: underline;
+      text-decoration-color: rgb(9, 96, 24);
+      text-decoration-thickness: 3px;
+      text-underline-offset: 4px;
+    
+      }
+      .container-1 .span4{
+
+        text-decoration: underline;
+        text-decoration-color: rgb(202, 220, 205);
+        text-decoration-thickness: 3px;
+        text-underline-offset: 4px;
+        
+      
+        }
+
+        #lastText{
+          
+          margin-top: -8px;
+        }
+        #articleheading{
+          padding: 20px;
+          font-weight: 400;
+          font-size: 26px;
+          color:black;
+          background-color: white;
+        }
+
+        #articlecontainer{
+          padding: 20px;
+          background-color: white;
+          margin-top: -15px;
+
+        }
+
+        #articlecontainer h1{
+        
+          font-weight: 400;
+          font-size: 22px;
+          color:black;
+
+        }
+
+        #articlecontainer div{
+        
+         display:flex;
+         flex-direction: row;
+       
+        }
+
+        #language{
+
+            color: red;
+            height: 20px;
+            border-style: solid;
+            border-width: 1.5px;
+            border-radius: 20px;
+            padding: 3px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-right: 20px;
+        }
+        
+        #date{
+
+          color: rgb(157, 150, 150);
+          height: 20px;
+          font-size: 12px;
+          margin-top: 23px;
+         
+      }
+       
+      #min-read{
+
+        color: rgb(157, 150, 150);
+        height: 20px;
+        font-size: 12px;
+        margin-top: 23px;
+        margin-left: 14px;
+       
+    }
+
+    #readmore{
+
+      color: rgb(122, 164, 242);
+      height: 20px;
+      font-size: 16px;
+      margin-top: 23px;
+   
+     
+  }
+
+
+  hr{
+
+    color: rgb(236, 240, 250);
+    height: 0px;
+ 
+   
+}
+    
+  
+
+  
+
+
+}

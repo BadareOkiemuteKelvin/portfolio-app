@@ -3,6 +3,8 @@ import Header from "../../Views/Header/Header";
 import './Project.css'
 import Footer from "../../Views/Footer/footer";
 import image1 from './assets/freshapp.png'
+import pblog from './assets/pblog.png'
+import bloomzon from './assets/Bloomzon.png'
 
 const projects = [{
   "id":1,
@@ -14,20 +16,20 @@ const projects = [{
  "link":"https://apps.apple.com/ng/app/bloomzon/id6464309937",
 },{
  "id":2,
-"image":"",
-"header":"Wedlock",
-"description":"Wedding planner app with tools for managing guests,guest list and task.",
+"image":pblog,
+"header":"PremiumBlog",
+"description":"Blogging app for news on sports,jobs,Tech,politics and travel world wide",
 "Apptype":"Web App Design",
-"Langauge":"Laravel Development",
-"link":"",
+"Langauge":"JavaScript , Nodejs",
+"link":"https://www.premiumblognews.com",
 },{
  "id":3,
-"image":"",
-"header":"Wedlock",
-"description":"Wedding planner app with tools for managing guests,guest list and task.",
+"image":bloomzon,
+"header":"Bloomzon App",
+"description":"An ecommerce app for selling and buying goods and services globally",
 "Apptype":"Web App Design",
-"Langauge":"Laravel Development",
-"link":"",
+"Langauge":"React Native , Express , MySQL and Nodejs",
+"link":"https://apps.apple.com/ng/app/bloomzon/id6464309937",
 }]
 
 
@@ -42,12 +44,11 @@ const Project =()=>{
           <p className="p1">Some of my spare time tinkering</p>
           {
             projects.map((data)=><div key={data.id}>
+               <h2>{data.header}</h2>
+               <p className="p2">{data.description}</p>
               <div  className="imgdiv">
                  <img src={data.image} alt="projectimage" />
               </div>
-             
-              <h2>{data.header}</h2>
-              <p className="p2">{data.description}</p>
               <p className="p3">{">"}{" "}{data.Apptype}</p>
               <p className="p3">{">"}{" "}{data.Langauge}</p>
               <div>
